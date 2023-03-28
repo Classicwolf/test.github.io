@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<meta charset="UTF-8">
+    <title>Mi página web</title>
+    <style type="text/css">
+    	.botón1 input {
+    		background-color: #4CAF50;
+    		color: black; /* color del texto del botón */
+ 			padding: 12px 24px; /* espacio de relleno (padding) del botón */
+ 			text-decoration: none; /* quita la subrayado por defecto en el texto del botón */
+ 			display: inline-block; /* para que el ancho del botón se ajuste al texto */
+ 			border: none; /* quita el borde por defecto del botón */
+ 			border-radius: 5px; /* redondea las esquinas del botón */
+  			cursor:url(); /* cambia el cursor al pasar sobre el botón */
+  			font-size: 16px;
+  			display: flex;
+  			justify-content: center;
+  			margin-left: 500px;
+  			cursor: url(cursor/earth.cur), pointer;
+    	}
+
+    	.botón2_wrapper {
+    		display: inline-block;
+    		padding: 0px;
+    		margin-left: 500px;
+    		margin-top: 20px;
+    	}
+
+    	.botón2 {
+    		background-color: #4012EB;
+    		color: white;
+    		padding: 12px 24px;
+    		text-decoration: none;
+    		display: inline-block;
+    		border: none;
+    		border-radius: 5px;
+    		cursor: pointer;
+    		font-size: 16px;
+    		display: flex;
+    		justify-content: center;
+    		height: 18;
+    		width: 252.25px;
+    		cursor: url(cursor/earth.cur), pointer;
+    	}
+
+    	.gatosorpresa {
+    		display:inline-block;
+    		margin-left: 440px;
+    		margin-top: 40px;
+    	}
+
+    	.gatosorpresa2 {
+    		width: 400px;
+    	}
+
+    </style>
+  </head>
+  <body>
+  	<form class="botón1" action="https://terraria.fandom.com/es/wiki/Especial:Aleatoria" target="_blank">
+    	<input type="submit" value="Página Random wiki Terraria"/>
+	</form>
+	<div class="botón2_wrapper">
+		<a href="https://es.wikipedia.org/wiki/Especial:Aleatoria" target="_blank">
+			<button class="botón2">Página Random Wikipedia</button>
+		</a>
+	</div>
+	<div class="gatosorpresa">
+		<img src="gif/giphy.webp" class="gatosorpresa2">
+	</div>
+  </body>
+</html>
